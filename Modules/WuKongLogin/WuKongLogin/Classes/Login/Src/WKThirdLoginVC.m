@@ -10,6 +10,7 @@
 #import "WKLoginVC.h"
 #import <AuthenticationServices/AuthenticationServices.h>
 #import "WKLoginSettingVC.h"
+#import <Masonry/Masonry.h>
 
 API_AVAILABLE(ios(13.0))
 @interface WKThirdLoginVC ()
@@ -17,6 +18,7 @@ API_AVAILABLE(ios(13.0))
 @property(nonatomic,strong) UIImageView *bgImgView;
 
 @property(nonatomic,strong) UILabel *titleLbl;
+@property(nonatomic, strong) UIButton *mobileBtn;
 
 @property(nonatomic,strong) UILabel *tipLbl;
 
@@ -33,6 +35,7 @@ API_AVAILABLE(ios(13.0))
     [super viewDidLoad];
     [self.view addSubview:self.bgImgView];
     [self.view addSubview:self.titleLbl];
+    [self.view addSubview:self.mobileBtn];
     [self.view addSubview:self.tipLbl];
     [self.view addSubview:self.giteeBtn];
     [self.view addSubview:self.githubBtn];
@@ -46,18 +49,26 @@ API_AVAILABLE(ios(13.0))
     self.titleLbl.lim_top = 138.0f;
     self.titleLbl.lim_centerX_parent = self.view;
     
-    self.tipLbl.lim_top = self.titleLbl.lim_bottom + 250.0f;
-    self.tipLbl.lim_centerX_parent = self.view;
-    
-    self.giteeBtn.lim_top = self.tipLbl.lim_bottom + 40.0f;
-    self.githubBtn.lim_top = self.giteeBtn.lim_top;
-    
-    CGFloat btw = 80.0f;
-    
-    CGFloat contentWidth = self.giteeBtn.lim_width + btw + self.githubBtn.lim_width;
-    self.giteeBtn.lim_left = self.view.lim_width/2.0f - contentWidth/2.0f;
-    self.githubBtn.lim_left= self.giteeBtn.lim_right + btw;
-
+    [self.giteeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view).offset(-15.0f - WKApp.shared.config.visibleEdgeInsets.bottom);
+        make.centerX.equalTo(self.view).offset(-15.0f - 22.0f);
+        make.size.mas_equalTo(CGSizeMake(44.0f, 44.0f));
+    }];
+    [self.githubBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view).offset(-15 - WKApp.shared.config.visibleEdgeInsets.bottom);
+        make.centerX.equalTo(self.view).offset(15.0f + 22.0f);
+        make.size.mas_equalTo(CGSizeMake(44.0f, 44.0f));
+    }];
+    [self.tipLbl mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.giteeBtn.mas_top).offset(-15);
+        make.centerX.equalTo(self.view);
+    }];
+    [self.mobileBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.tipLbl.mas_top).offset(-15);
+        make.left.equalTo(self.view).offset(15);
+        make.right.equalTo(self.view).offset(-15);
+        make.height.mas_equalTo(@44);
+    }];
 
 }
 
@@ -77,19 +88,33 @@ API_AVAILABLE(ios(13.0))
         _titleLbl.textColor = [UIColor whiteColor];
         [_titleLbl sizeToFit];
         
-        _titleLbl.userInteractionEnabled = YES;
-        UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(titleLongPressed:)];
-        
-        [_titleLbl addGestureRecognizer:longPress];
+//        _titleLbl.userInteractionEnabled = YES;
+//        UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(titleLongPressed:)];
+//        
+//        [_titleLbl addGestureRecognizer:longPress];
     }
     return _titleLbl;
+}
+
+- (UIButton *)mobileBtn{
+    if (!_mobileBtn) {
+        _mobileBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _mobileBtn.backgroundColor = [UIColor whiteColor];
+        [_mobileBtn setTitle:@"手机号登录" forState:UIControlStateNormal];
+        _mobileBtn.titleLabel.font = [WKApp.shared.config appFontOfSize:15.0f];
+        [_mobileBtn addTarget:self action:@selector(titleLongPressed:) forControlEvents:UIControlEventTouchUpInside];
+        [_mobileBtn setTitleColor:[UIColor colorWithPatternImage:[self image:@"ThirdLogin"]] forState:UIControlStateNormal];
+        _mobileBtn.layer.cornerRadius = 10.0f;
+        _mobileBtn.clipsToBounds = true;
+    }
+    return _mobileBtn;
 }
 
 - (UILabel *)tipLbl {
     if(!_tipLbl) {
         _tipLbl = [[UILabel alloc] init];
-        _tipLbl.font = [WKApp.shared.config appFontOfSize:14.0f];
-        _tipLbl.text = @"—  第三方登录  —";
+        _tipLbl.font = [WKApp.shared.config appFontOfSize:15.0f];
+        _tipLbl.text = @" — 第三方登录 - ";
         _tipLbl.textColor = [UIColor whiteColor];
         [_tipLbl sizeToFit];
     }
@@ -122,8 +147,8 @@ API_AVAILABLE(ios(13.0))
         _settingBtn.lim_size = CGSizeMake(32.0f, 32.0f);
         [_settingBtn setImage:[self image:@"Setting"] forState:UIControlStateNormal];
         
-        _settingBtn.lim_top = WKApp.shared.config.visibleEdgeInsets.top + 20.0f;
-        _settingBtn.lim_left = self.view.lim_width - _settingBtn.lim_width - 20.0f;
+        _settingBtn.lim_top = WKApp.shared.config.visibleEdgeInsets.top + 15.0f;
+        _settingBtn.lim_left = self.view.lim_width - _settingBtn.lim_width - 15.0f;
         [_settingBtn addTarget:self action:@selector(settingPressed) forControlEvents:UIControlEventTouchUpInside];
     }
     return _settingBtn;
@@ -136,10 +161,10 @@ API_AVAILABLE(ios(13.0))
 
 
 -(void) titleLongPressed:(UILongPressGestureRecognizer*)gestureRecognizer {
-    if(gestureRecognizer.state == UIGestureRecognizerStateBegan) {
+//    if(gestureRecognizer.state == UIGestureRecognizerStateBegan) {
         WKLoginVC *vc = [[WKLoginVC alloc] init];
         [WKNavigationManager.shared pushViewController:vc animated:YES];
-    }
+//    }
 }
 
 -(void) giteeLoginPressed {
@@ -255,4 +280,9 @@ API_AVAILABLE(ios(13.0))
 -(UIImage*) image:(NSString*)name {
     return [[WKApp shared] loadImage:name moduleID:@"WuKongLogin"];
 }
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
+
 @end

@@ -17981,8 +17981,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -21593,7 +21593,7 @@
 			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongBase;
@@ -22296,7 +22296,7 @@
 			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongContacts;
@@ -22363,7 +22363,7 @@
 			baseConfigurationReference = 3397AE073C4B78675ED9E7BCB26865EC /* WuKongLogin.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongLogin;
@@ -22512,7 +22512,7 @@
 			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongBase;
@@ -22606,7 +22606,7 @@
 			baseConfigurationReference = 473A62EBD649FA637E4F0DB3A4ACBEA1 /* TOCropViewController.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = TOCropViewController;
@@ -22854,7 +22854,7 @@
 			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongContacts;
@@ -23487,7 +23487,7 @@
 			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongBase;
@@ -23693,7 +23693,7 @@
 			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongBase;
@@ -23925,7 +23925,7 @@
 			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongContacts;
@@ -24545,7 +24545,7 @@
 			baseConfigurationReference = 5072AC9A3F4EACD9454F0C5600C23884 /* TOCropViewController.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = TOCropViewController;
@@ -24627,7 +24627,7 @@
 			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongContacts;
@@ -25240,7 +25240,7 @@
 			baseConfigurationReference = F7D5ABC80770748840D40441624ACC57 /* WuKongLogin.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
-				DEVELOPMENT_TEAM = H8PU463W68;
+				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				IBSC_MODULE = WuKongLogin;

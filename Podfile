@@ -4,7 +4,7 @@ workspace 'TangSengDaoDaoiOS.xcworkspace'
 
 post_install do |installer|
     # 填写你自己的开发者团队的team id
-    dev_team = "H8PU463W68"
+    dev_team = "F9N98X7P4L"
     project = installer.aggregate_targets[0].user_project
     project.targets.each do |target|
         target.build_configurations.each do |config|
