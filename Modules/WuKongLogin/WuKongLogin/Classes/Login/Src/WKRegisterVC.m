@@ -286,12 +286,12 @@ static int lastGetCodeTimestamp = 0; // 最后一次获取验证码的时间戳�
 // 注册
 - (UIButton *)registerBtn {
     if(!_registerBtn) {
-        _registerBtn = [[UIButton alloc] initWithFrame:CGRectMake(30.0f, self.passwordBoxView.lim_bottom+82.0f, WKScreenWidth - 60.0f, 40.0f)];
+        _registerBtn = [[UIButton alloc] initWithFrame:CGRectMake(15.0f, self.passwordBoxView.lim_bottom+82.0f, WKScreenWidth - 30.0f, 44.0f)];
         [_registerBtn setBackgroundColor:[WKApp shared].config.themeColor];
         [_registerBtn setTitle:LLang(@"注册") forState:UIControlStateNormal];
         [_registerBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _registerBtn.layer.masksToBounds = YES;
-        _registerBtn.layer.cornerRadius = 4.0f;
+        _registerBtn.layer.cornerRadius = 10.0f;
         [_registerBtn addTarget:self action:@selector(registerBtnPressed) forControlEvents:UIControlEventTouchUpInside];
         
         [WKApp.shared.config setThemeStyleButton:_registerBtn];

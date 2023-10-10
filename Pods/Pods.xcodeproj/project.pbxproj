@@ -17981,8 +17981,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -21588,25 +21588,6 @@
 			};
 			name = Debug;
 		};
-		046B82AC07D5E15874DC742647FEAA4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongBase;
-				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_resources-WuKongBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongBase_resources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		061A1A41B8A9DAE125F541BDFB613506 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B64883AB172FA4C5A3B0391D41DA52F6 /* GZIP.debug.xcconfig */;
@@ -22036,6 +22017,26 @@
 			};
 			name = Debug;
 		};
+		20DA716C0674A2606FD96AE4291C7D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongBase;
+				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_resources-WuKongBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongBase_resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		220E9BE8E76C55C430A723B3C64C6264 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2071D43955822BC25A8DB8655527A729 /* SDWebImageLottieCoder.debug.xcconfig */;
@@ -22072,6 +22073,26 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		22DC704CD5067E1B7C8F513DE4CCF005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongBase;
+				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_images-WuKongBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongBase_images;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		26515EE84ED13D392847F9FA1CD2803E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -22146,6 +22167,26 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		293C636C25E4B6A1D319A858C12D1811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongContacts;
+				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_images-WuKongContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongContacts_images;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -22291,25 +22332,6 @@
 			};
 			name = Debug;
 		};
-		2F113E28B780DAB2F874D408BB41F2B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongContacts;
-				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_images-WuKongContacts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongContacts_images;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		2F56F5ECBE80E1E2528B3B7EF43105DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC60BBFA123BDD44364FD1CDD0D50887 /* Socket.IO-Client-Swift-library.release.xcconfig */;
@@ -22358,24 +22380,25 @@
 			};
 			name = Release;
 		};
-		3B0F5011E8D934A2734699E4C7699001 /* Release */ = {
+		313AA26678D26552D27DC0F6B59BA067 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3397AE073C4B78675ED9E7BCB26865EC /* WuKongLogin.release.xcconfig */;
+			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
 				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongLogin;
-				INFOPLIST_FILE = "Target Support Files/WuKongLogin/ResourceBundle-WuKongLogin_images-WuKongLogin-Info.plist";
+				IBSC_MODULE = WuKongBase;
+				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_images-WuKongBase-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongLogin_images;
+				PRODUCT_NAME = WuKongBase_images;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		3E1ED86148FADDC889B47D055FCE7DD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -22507,25 +22530,6 @@
 			};
 			name = Release;
 		};
-		42E13535A71B17BFC58D826E69B5A527 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongBase;
-				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_resources-WuKongBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongBase_resources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		42E3EDD87A395DE71A683D553546E200 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2753953279E3F9A04A19C1466CD4A3C1 /* Socket.IO-Client-Swift-framework.release.xcconfig */;
@@ -22598,25 +22602,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45533DE435C81B54BD60A0EE04F2ED7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 473A62EBD649FA637E4F0DB3A4ACBEA1 /* TOCropViewController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = TOCropViewController;
-				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -22849,24 +22834,25 @@
 			};
 			name = Release;
 		};
-		5853EE45B3B8CFE17BB9EB726F51152E /* Release */ = {
+		58102EB4521D312CF3A1F508ACB793B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
+			baseConfigurationReference = F7D5ABC80770748840D40441624ACC57 /* WuKongLogin.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
 				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongContacts;
-				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_resources-WuKongContacts-Info.plist";
+				IBSC_MODULE = WuKongLogin;
+				INFOPLIST_FILE = "Target Support Files/WuKongLogin/ResourceBundle-WuKongLogin_images-WuKongLogin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongContacts_resources;
+				PRODUCT_NAME = WuKongLogin_images;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		5908B472F0BC8CFDE74EF4445223D97F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -23482,25 +23468,6 @@
 			};
 			name = Debug;
 		};
-		7A6E2D12AD2EC08931EA52632D47DBDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongBase;
-				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_images-WuKongBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongBase_images;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		7A717A8891687BCEE208BB061E615041 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D2065190B9AF030B5B4F54DC8DF6969 /* FMDB.debug.xcconfig */;
@@ -23537,6 +23504,26 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7F328070D9B2B3B9AC02C4FC61DBE1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3397AE073C4B78675ED9E7BCB26865EC /* WuKongLogin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongLogin;
+				INFOPLIST_FILE = "Target Support Files/WuKongLogin/ResourceBundle-WuKongLogin_images-WuKongLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongLogin_images;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		7FCFC895833711B4D7F0C75A88D278A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -23688,25 +23675,6 @@
 			};
 			name = Debug;
 		};
-		85D77575B2B7C686A93F03BE41C01C1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongBase;
-				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_images-WuKongBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongBase_images;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		87B736DCA3E250AD77EAAEAEFA592297 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0D708D52D9A605EF5AF78E35B3099A9 /* Toast.debug.xcconfig */;
@@ -23807,6 +23775,26 @@
 			};
 			name = Release;
 		};
+		8BADE575C41593ECA89375F62791FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongContacts;
+				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_resources-WuKongContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongContacts_resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		8C03FA57C276848605004E65675740BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E9A4003C9E2C25D10E8C441B98C6FA3 /* Starscream-framework.release.xcconfig */;
@@ -23882,6 +23870,26 @@
 			};
 			name = Debug;
 		};
+		948FCABF8F7FEBE9064411594C91D64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473A62EBD649FA637E4F0DB3A4ACBEA1 /* TOCropViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = TOCropViewController;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		954CBFB1B951A1723B97599D937EB6DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8AD73658F79C879023282882FF7F2B3 /* SocketRocket-framework.release.xcconfig */;
@@ -23919,25 +23927,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		959D298FF03AFB4A3DED949E84311252 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongContacts;
-				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_images-WuKongContacts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongContacts_images;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		975D5581299F51E27CBE2B265928C293 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -24540,25 +24529,6 @@
 			};
 			name = Debug;
 		};
-		C31CFF860C8F6C5F5F56BA2167F9109A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5072AC9A3F4EACD9454F0C5600C23884 /* TOCropViewController.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = TOCropViewController;
-				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		C5594707DEEEBB1A82375426A9AA1E45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73389090984FC2A0C0ADCD920BD5D89F /* Aspects-library.release.xcconfig */;
@@ -24622,25 +24592,6 @@
 			};
 			name = Debug;
 		};
-		C7D46C888B082DDD5DD277E38C1E8267 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
-				DEVELOPMENT_TEAM = F9N98X7P4L;
-				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongContacts;
-				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_resources-WuKongContacts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongContacts_resources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		CC62AD413B3C2CFE55C22B177C74153F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5530BA1A635C178DDE3B29890B976AB /* WuKongBase.release.xcconfig */;
@@ -24679,6 +24630,26 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CD73BC664033D87C4D7EE69D0803741A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5072AC9A3F4EACD9454F0C5600C23884 /* TOCropViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = TOCropViewController;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		CF90C38E7A2118DACA316A01BD8240C6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -24830,6 +24801,26 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		DAB054668B9745FC465B095A7A023D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA157712D6BA826DEE3EDD32EDAB2C75 /* WuKongContacts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongContacts;
+				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_resources-WuKongContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongContacts_resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		DABF35035B4D44A72D8F70E9F1A51955 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -25124,6 +25115,26 @@
 			};
 			name = Debug;
 		};
+		EBC236F45CDB863B38B0807ED1E0BD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E7D711395BC672D641189FC7AE2355 /* WuKongContacts.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongContacts";
+				DEVELOPMENT_TEAM = F9N98X7P4L;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = WuKongContacts;
+				INFOPLIST_FILE = "Target Support Files/WuKongContacts/ResourceBundle-WuKongContacts_images-WuKongContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = WuKongContacts_images;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		EDE7DAAFD1BBB386B00A20B40AB090CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 113506318C1A965A2471A9C081C4436F /* SDWebImage.release.xcconfig */;
@@ -25235,18 +25246,19 @@
 			};
 			name = Debug;
 		};
-		F9CF17B0C00DF03600D5582F2D3549C6 /* Debug */ = {
+		F57D13FD3BDB735F121B500DACBC755C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D5ABC80770748840D40441624ACC57 /* WuKongLogin.debug.xcconfig */;
+			baseConfigurationReference = 8EB06F9EBC8DA6F4344DEC738B06EF26 /* WuKongBase.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongLogin";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WuKongBase";
 				DEVELOPMENT_TEAM = F9N98X7P4L;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				IBSC_MODULE = WuKongLogin;
-				INFOPLIST_FILE = "Target Support Files/WuKongLogin/ResourceBundle-WuKongLogin_images-WuKongLogin-Info.plist";
+				IBSC_MODULE = WuKongBase;
+				INFOPLIST_FILE = "Target Support Files/WuKongBase/ResourceBundle-WuKongBase_resources-WuKongBase-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = WuKongLogin_images;
+				PRODUCT_NAME = WuKongBase_resources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -25342,8 +25354,8 @@
 		1CF3329A02D891F75D211695D8BFCF7B /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C31CFF860C8F6C5F5F56BA2167F9109A /* Debug */,
-				45533DE435C81B54BD60A0EE04F2ED7D /* Release */,
+				CD73BC664033D87C4D7EE69D0803741A /* Debug */,
+				948FCABF8F7FEBE9064411594C91D64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -25504,8 +25516,8 @@
 		6E5F5C6F56618372D675EEB1063A7AEA /* Build configuration list for PBXNativeTarget "WuKongBase-WuKongBase_images" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85D77575B2B7C686A93F03BE41C01C1E /* Debug */,
-				7A6E2D12AD2EC08931EA52632D47DBDA /* Release */,
+				313AA26678D26552D27DC0F6B59BA067 /* Debug */,
+				22DC704CD5067E1B7C8F513DE4CCF005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -25612,8 +25624,8 @@
 		A2A22E3FE2E125634DAB9C653AD4C1EC /* Build configuration list for PBXNativeTarget "WuKongLogin-WuKongLogin_images" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9CF17B0C00DF03600D5582F2D3549C6 /* Debug */,
-				3B0F5011E8D934A2734699E4C7699001 /* Release */,
+				58102EB4521D312CF3A1F508ACB793B7 /* Debug */,
+				7F328070D9B2B3B9AC02C4FC61DBE1AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -25630,8 +25642,8 @@
 		AD21868CBCE5E229D7A376FC17C77EEE /* Build configuration list for PBXNativeTarget "WuKongContacts-WuKongContacts_resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7D46C888B082DDD5DD277E38C1E8267 /* Debug */,
-				5853EE45B3B8CFE17BB9EB726F51152E /* Release */,
+				8BADE575C41593ECA89375F62791FE3C /* Debug */,
+				DAB054668B9745FC465B095A7A023D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -25639,8 +25651,8 @@
 		AD5B612E4A95DC5EB0F42EA72E569181 /* Build configuration list for PBXNativeTarget "WuKongContacts-WuKongContacts_images" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				959D298FF03AFB4A3DED949E84311252 /* Debug */,
-				2F113E28B780DAB2F874D408BB41F2B0 /* Release */,
+				EBC236F45CDB863B38B0807ED1E0BD20 /* Debug */,
+				293C636C25E4B6A1D319A858C12D1811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -25684,8 +25696,8 @@
 		C4A0A0526D901A3285E9DD08371C2FF6 /* Build configuration list for PBXNativeTarget "WuKongBase-WuKongBase_resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42E13535A71B17BFC58D826E69B5A527 /* Debug */,
-				046B82AC07D5E15874DC742647FEAA4D /* Release */,
+				F57D13FD3BDB735F121B500DACBC755C /* Debug */,
+				20DA716C0674A2606FD96AE4291C7D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

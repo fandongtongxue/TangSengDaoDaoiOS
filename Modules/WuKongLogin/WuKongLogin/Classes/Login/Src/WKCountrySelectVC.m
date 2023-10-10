@@ -107,21 +107,21 @@
 - (UISearchBar *)searchBar {
     if(!_searchBar) {
         _searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(15.0f,self.navigationBar.lim_bottom+15.0f,self.view.lim_width - 30.0f, searchHeight)];
-//        _searchBar.searchBarStyle = UISearchBarStyleProminent;
+        _searchBar.searchBarStyle = UISearchBarStyleDefault;
         _searchBar.placeholder = LLang(@"搜索");
-        [_searchBar setBackgroundColor:[WKApp shared].config.backgroundColor];
-        [_searchBar setBackgroundImage:[UIImage new]];
+//        [_searchBar setBackgroundColor:[WKApp shared].config.backgroundColor];
+//        [_searchBar setBackgroundImage:[UIImage new]];
         _searchBar.layer.masksToBounds = YES;
         _searchBar.layer.cornerRadius = 8.0f;
         _searchBar.delegate = self;
         
-        if (@available(iOS 13.0, *)) {
-           
-            [_searchBar searchTextField].layer.backgroundColor = WKApp.shared.config.backgroundColor.CGColor;
-            [_searchBar searchTextField].backgroundColor = WKApp.shared.config.backgroundColor;
-        } else {
-            // Fallback on earlier versions
-        }
+//        if (@available(iOS 13.0, *)) {
+//           
+//            [_searchBar searchTextField].layer.backgroundColor = WKApp.shared.config.backgroundColor.CGColor;
+//            [_searchBar searchTextField].backgroundColor = WKApp.shared.config.backgroundColor;
+//        } else {
+//            // Fallback on earlier versions
+//        }
     }
     return _searchBar;
 }

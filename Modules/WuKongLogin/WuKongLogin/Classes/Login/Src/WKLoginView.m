@@ -228,13 +228,13 @@
 // 登录
 - (UIButton *)loginBtn {
     if(!_loginBtn) {
-        _loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(30.0f, self.passwordBoxView.lim_bottom+82.0f, WKScreenWidth - 60.0f, 40.0f)];
+        _loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(15.0f, self.passwordBoxView.lim_bottom+82.0f, WKScreenWidth - 30.0f, 44.0f)];
 //        [_loginBtn setBackgroundColor:[WKApp shared].config.themeColor];
         [_loginBtn setBackgroundColor:[WKApp shared].config.themeColor];
         [_loginBtn setTitle:LLang(@"登录") forState:UIControlStateNormal];
         [_loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _loginBtn.layer.masksToBounds = YES;
-        _loginBtn.layer.cornerRadius = 4.0f;
+        _loginBtn.layer.cornerRadius = 10.0f;
         [_loginBtn addTarget:self action:@selector(loginBtnPressed) forControlEvents:UIControlEventTouchUpInside];
         
         [WKApp.shared.config setThemeStyleButton:_loginBtn];
